@@ -46,3 +46,29 @@ button:hover {
     font-size: 0.9rem;
     margin-bottom: 1rem;
 }
+.dashboard-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10vh;
+    font-family: Arial, sans-serif;
+}
+
+.btn-logout {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #dc3545;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-logout:hover {
+    background: #a71d2a;
+}
